@@ -1,16 +1,42 @@
-# React + Vite
+🧮 Modern React Calculator
+Bu layihə, React.js və Tailwind CSS istifadə edilərək hazırlanmış, müasir dizayna və funksionallığa malik bir kalkulyator tətbiqidir. Tətbiq həm riyazi hesablamaları yerinə yetirir, həm də istifadəçi dostu interfeys təqdim edir.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔥 Xüsusiyyətlər
+Riyazi Əməliyyatlar: Toplama, çıxma, vurma və bölmə.
 
-Currently, two official plugins are available:
+Faiz Hesablama: Daxil edilən ədədin faiz dəyərini dərhal hesablamaq imkanı.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dinamik Ekran: Yazılan rəqəmlərin və nəticələrin real vaxtda göstərilməsi.
 
-## React Compiler
+Backspace (Silmə): Səhv yazılan sonuncu simvolu silmək üçün Lucide-React ikonlu silmə düyməsi.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive Dizayn: Tailwind CSS ilə hazırlanmış, hər növ ekrana uyğun (responsive) və qaranlıq rejimli (dark mode) interfeys.
 
-## Expanding the ESLint configuration
+Xəta İdarəetməsi: Yanlış riyazi ifadələr zamanı "Error" mesajının göstərilməsi.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠 Texnologiyalar
+React.js: Komponent əsaslı struktur üçün.
+
+Tailwind CSS: Stil və dizayn üçün (Utility-first CSS).
+
+Lucide React: Vizual ikonlar üçün.
+
+JavaScript (ES6+): Hesablama məntiqləri və massiv manipulyasiyaları üçün.
+
+📂 Kodun Strukturu
+useState: Kalkulyatorun ekranındakı dəyəri (input) idarə etmək üçün istifadə olunub.
+
+handleResult: Daxil edilən string ifadəni ("10+5*2") parçalayaraq riyazi ardıcıllıqla hesablayan əsas funksiya.
+
+handleClick: Düymələrə basıldıqda rəqəm və operatorları ekrana yazdırır.
+
+Tailwind Grid: Düymələrin 4 sütunlu səliqəli düzülüşü üçün grid-cols-4 strukturundan istifadə edilib.
+
+🎨 Dizayn Detalları
+Arxa fon: #afddff (Açıq mavi)
+
+Kalkulyator Gövdəsi: #222831 (Tünd boz/qara)
+
+Operator Düymələri: #FF9F0A (Narıncı - Apple stilində)
+
+Rəqəm Düymələri: #393e46 (Göyümtül boz)

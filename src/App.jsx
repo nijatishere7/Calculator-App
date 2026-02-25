@@ -1,5 +1,10 @@
-import { useState } from "react";
+// CSS
 import "./App.css";
+
+// Hooks
+import { useState } from "react";
+
+// Icons
 import { LucideDelete } from "lucide-react";
 
 export const App = () => {
